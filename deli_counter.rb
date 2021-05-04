@@ -2,10 +2,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli = nil
+  if katz_deli = none
     puts "The line is currently empty."
   else
-    puts "The line is currently katz_deli.map {|name| (index + 1). name }"
+    puts "The line is currently".concat katz_deli.map {|name| (index + 1). name }
   end
 end
 
