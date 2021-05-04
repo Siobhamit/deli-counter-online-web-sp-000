@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     n = 0
-    puts "The line is currently".concat(katz_deli.map.with_index{|name, index| "(index + 1). name"}.join( ))
+    puts "The line is currently".concat( katz_deli.map.with_index {|name, index| "(index + 1). name"}.join( ) )
   end
 end
 
